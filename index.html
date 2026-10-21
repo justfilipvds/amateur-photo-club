@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="en">
+<head>
+<script>document.documentElement.classList.add("js")</script>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Lviv Aperture Club · Amateur photographers meeting weekly in Lviv</title>
+<meta name="description" content="Lviv Aperture Club is a community of amateur photographers meeting weekly for walks, critiques, and exhibitions. Join us, whatever camera you carry.">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=IBM+Plex+Mono:wght@400;500&family=Schibsted+Grotesk:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header" data-header>
+  <div class="container header-row">
+    <a class="brand" href="index.html">
+      <svg width="30" height="30" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><rect x="2" y="6" width="20" height="14" rx="2" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="13" r="4" stroke="currentColor" stroke-width="2"/><path d="M8 6l1.5-2.5h5L16 6" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+      <span>Lviv Aperture Club</span>
+    </a>
+    <nav class="site-nav" id="site-nav" aria-label="Main">
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#walks">Walks</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#exhibition">Exhibition</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ul>
+    </nav>
+    <a class="button button-primary header-cta" href="#join">Join a meetup</a>
+    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+      <svg class="icon-open" width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+      <svg class="icon-close" width="24" height="24" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+    </button>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="hero" aria-label="Introduction">
+    <div class="hero-photo" aria-hidden="true">
+      <svg viewBox="0 0 1600 1000" preserveAspectRatio="xMidYMid slice" width="100%" height="100%">
+        <defs>
+          <linearGradient id="skyGrad" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#1a1a1a"/>
+            <stop offset="55%" stop-color="#2b2724"/>
+            <stop offset="100%" stop-color="#3d3028"/>
+          </linearGradient>
+          <linearGradient id="sunGrad" x1="0" y1="0" x2="0" y2="1">
+            <stop offset="0%" stop-color="#ff5a1f"/>
+            <stop offset="100%" stop-color="#ff8a3d"/>
+          </linearGradient>
+        </defs>
+        <rect width="1600" height="1000" fill="url(#skyGrad)"/>
+        <circle cx="1180" cy="340" r="160" fill="url(#sunGrad)" opacity="0.85"/>
+        <path d="M0 620 L200 520 L420 600 L650 480 L900 580 L1150 460 L1350 560 L1600 500 L1600 1000 L0 1000 Z" fill="#161412" opacity="0.92"/>
+        <path d="M0 720 L260 660 L520 710 L780 650 L1050 700 L1320 640 L1600 690 L1600 1000 L0 1000 Z" fill="#0c0b0a"/>
+      </svg>
+    </div>
+    <div class="hero-scrim" aria-hidden="true"></div>
+    <div class="container hero-inner">
+      <p class="hero-frame-label">FRAME 001 — 20·10·2026</p>
+      <h1 class="hero-title">
+        <span class="line"><span style="--i:0">Amateur photographers,</span></span>
+        <span class="line"><span style="--i:1">Lviv, every Thursday.</span></span>
+      </h1>
+      <p class="hero-lead">Lviv Aperture Club is forty-some people with cameras — phones, film, DSLRs — who walk the city together, trade honest critique, and print what they make. No portfolio required to join, just curiosity.</p>
+      <div class="hero-actions">
+        <a class="button button-primary" href="#join">Join a meetup</a>
+        <a class="button button-secondary" href="#gallery">See member photos</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="about">
+    <div class="container section-head">
+      <p class="eyebrow">01 / About the club</p>
+      <h2>Built by members, for members</h2>
+    </div>
+    <div class="container about-grid">
+      <div class="about-copy" data-reveal>
+        <p>We started in 2019 as five neighbours swapping photos in a group chat. Today we're a club of roughly 48 active members, aged 17 to 71, who meet every Thursday evening and one Saturday a month for a longer shoot outside the city.</p>
+        <p>Nobody here shoots for a living. That's the point. We critique kindly, share settings freely, and believe a good photograph can come from a phone in a trolleybus just as easily as a tripod on a hill.</p>
+      </div>
+      <dl class="about-stats" data-reveal style="--i:1">
+        <div class="stat"><dt>Founded</dt><dd>2019</dd></div>
+        <div class="stat"><dt>Active members</dt><dd>48</dd></div>
+        <div class="stat"><dt>Weekly meetup</dt><dd>Thursdays, 19:00</dd></div>
+        <div class="stat"><dt>Membership fee</dt><dd>None</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <div class="sprocket-divider" aria-hidden="true">
+    <svg viewBox="0 0 400 24" preserveAspectRatio="none" width="100%" height="24"><g fill="currentColor">
+      <rect x="4" y="4" width="16" height="16" rx="3"/><rect x="40" y="4" width="16" height="16" rx="3"/><rect x="76" y="4" width="16" height="16" rx="3"/><rect x="112" y="4" width="16" height="16" rx="3"/><rect x="148" y="4" width="16" height="16" rx="3"/><rect x="184" y="4" width="16" height="16" rx="3"/><rect x="220" y="4" width="16" height="16" rx="3"/><rect x="256" y="4" width="16" height="16" rx="3"/><rect x="292" y="4" width="16" height="16" rx="3"/><rect x="328" y="4" width="16" height="16" rx="3"/><rect x="364" y="4" width="16" height="16" rx="3"/>
+    </g></svg>
+  </div>
+
+  <section class="section section-sunken" id="walks">
+    <div class="container section-head">
+      <p class="eyebrow">02 / What we do</p>
+      <h2>A rhythm that fits around real life</h2>
+    </div>
+    <div class="container process-grid">
+      <article class="process-step" data-reveal style="--i:0">
+        <span class="process-num">01</span>
+        <h3>Thursday walks</h3>
+        <p>A two-hour walk through a different district each week — Pidzamche one week, the Opera quarter the next. Open to all, no RSVP needed, meet at the listed corner at 19:00.</p>
+      </article>
+      <article class="process-step" data-reveal style="--i:1">
+        <span class="process-num">02</span>
+        <h3>Monthly critique night</h3>
+        <p>Bring three photos, printed or on a laptop. We project them and talk through composition, light, and editing choices — no grading, just useful notes from people who shoot too.</p>
+      </article>
+      <article class="process-step" data-reveal style="--i:2">
+        <span class="process-num">03</span>
+        <h3>Saturday field trips</h3>
+        <p>One longer outing a month beyond the city — Vysokyi Zamok at sunrise, the Carpathian foothills in autumn, a night shoot on the market square. Carpooling arranged in the group chat.</p>
+      </article>
+      <article class="process-step" data-reveal style="--i:3">
+        <span class="process-num">04</span>
+        <h3>Annual exhibition</h3>
+        <p>Each December we print and hang a show of member work in a local café or gallery space. Everyone who shows up through the year gets a frame on the wall.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="band-accent" aria-label="A note on who can join">
+    <div class="container band-inner" data-reveal>
+      <p class="band-quote">“You don't need a good camera. You need to show up on Thursday and look closely at something.”</p>
+      <p class="band-attrib">— club founding note, 2019</p>
+    </div>
+  </section>
+
+  <section class="section" id="gallery">
+    <div class="container section-head">
+      <p class="eyebrow">03 / Contact sheet</p>
+      <h2>Recent frames from members</h2>
+      <p class="section-lead">A rotating wall of what people brought to critique night this season. Select any frame to view it larger.</p>
+    </div>
+    <div class="container">
+      <ul class="masonry" role="list">
+        <li data-reveal style="--i:0"><button class="gallery-item" type="button" aria-label="Open frame 1 of 9"><span class="frame" style="--ratio: 3/4"><svg viewBox="0 0 300 400" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Portrait study in warm window light"><rect width="300" height="400" fill="#2a2420"/><circle cx="150" cy="150" r="90" fill="#ff8a3d" opacity="0.5"/><rect y="260" width="300" height="140" fill="#161412"/></svg></span></button></li>
+        <li data-reveal style="--i:1"><button class="gallery-item" type="button" aria-label="Open frame 2 of 9"><span class="frame" style="--ratio: 4/3"><svg viewBox="0 0 400 300" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Tram crossing a wet street at dusk"><rect width="400" height="300" fill="#1c1b1f"/><rect y="180" width="400" height="120" fill="#0c0b0e"/><rect x="60" y="120" width="80" height="60" fill="#ff5a1f" opacity="0.8"/></svg></span></button></li>
+        <li data-reveal style="--i:2"><button class="gallery-item" type="button" aria-label="Open frame 3 of 9"><span class="frame" style="--ratio: 1/1"><svg viewBox="0 0 300 300" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Market square cobblestones, close detail"><rect width="300" height="300" fill="#26211d"/><circle cx="100" cy="220" r="40" fill="#3a332c"/><circle cx="200" cy="180" r="55" fill="#4a4038"/><circle cx="60" cy="90" r="30" fill="#5a4e42"/></svg></span></button></li>
+        <li data-reveal style="--i:3"><button class="gallery-item" type="button" aria-label="Open frame 4 of 9"><span class="frame" style="--ratio: 3/2"><svg viewBox="0 0 450 300" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Foggy hills at sunrise on a field trip"><rect width="450" height="300" fill="#2d2a28"/><ellipse cx="225" cy="220" rx="260" ry="60" fill="#1a1715"/><circle cx="340" cy="90" r="40" fill="#ffb15e"/></svg></span></button></li>
+        <li data-reveal style="--i:4"><button class="gallery-item" type="button" aria-label="Open frame 5 of 9"><span class="frame" style="--ratio: 4/5"><svg viewBox="0 0 320 400" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Church spire against a grey winter sky"><rect width="320" height="400" fill="#23242a"/><polygon points="160,60 190,200 130,200" fill="#13141a"/><rect x="140" y="200" width="40" height="160" fill="#13141a"/></svg></span></button></li>
+        <li data-reveal style="--i:5"><button class="gallery-item" type="button" aria-label="Open frame 6 of 9"><span class="frame" style="--ratio: 1/1"><svg viewBox="0 0 300 300" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Hands adjusting a film camera dial"><rect width="300" height="300" fill="#201c1a"/><circle cx="150" cy="150" r="70" fill="#38322c"/><circle cx="150" cy="150" r="30" fill="#ff8a3d" opacity="0.7"/></svg></span></button></li>
+        <li data-reveal style="--i:6"><button class="gallery-item" type="button" aria-label="Open frame 7 of 9"><span class="frame" style="--ratio: 3/4"><svg viewBox="0 0 300 400" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Narrow courtyard with hanging laundry"><rect width="300" height="400" fill="#28241f"/><rect x="0" y="0" width="300" height="180" fill="#403a33"/><rect x="40" y="190" width="220" height="10" fill="#9c8c78"/></svg></span></button></li>
+        <li data-reveal style="--i:7"><button class="gallery-item" type="button" aria-label="Open frame 8 of 9"><span class="frame" style="--ratio: 4/3"><svg viewBox="0 0 400 300" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Night market stall lit by a single bulb"><rect width="400" height="300" fill="#141212"/><circle cx="200" cy="110" r="18" fill="#ffd37a"/><rect x="100" y="150" width="200" height="100" fill="#201c19"/></svg></span></button></li>
+        <li data-reveal style="--i:8"><button class="gallery-item" type="button" aria-label="Open frame 9 of 9"><span class="frame" style="--ratio: 1/1"><svg viewBox="0 0 300 300" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Autumn leaves scattered on stone steps"><rect width="300" height="300" fill="#2a2015"/><circle cx="90" cy="200" r="20" fill="#d98a35"/><circle cx="160" cy="230" r="16" fill="#c76a2e"/><circle cx="220" cy="190" r="22" fill="#e0994a"/></svg></span></button></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="band-photo" aria-hidden="true">
+    <svg viewBox="0 0 1600 500" preserveAspectRatio="xMidYMid slice" width="100%" height="100%">
+      <rect width="1600" height="500" fill="#161412"/>
+      <path d="M0 360 L300 300 L600 350 L900 280 L1200 330 L1600 290 L1600 500 L0 500 Z" fill="#221d18"/>
+      <circle cx="1300" cy="140" r="70" fill="#ff8a3d" opacity="0.6"/>
+    </svg>
+    <div class="band-photo-label container">Lviv, 2026 — a Thursday walk through Pidzamche</div>
+  </section>
+
+  <section class="section" id="exhibition">
+    <div class="container section-head">
+      <p class="eyebrow">04 / Exhibition</p>
+      <h2>Winter show, open to all members</h2>
+    </div>
+    <div class="container exhibition-grid">
+      <div class="exhibition-copy" data-reveal>
+        <p>Every member who attends at least four meetups this year may submit up to two prints for our December show. We hang the work ourselves, write our own captions, and invite anyone who has ever walked with us.</p>
+        <dl class="visit-details">
+          <div><dt>Submission deadline</dt><dd>28 November 2026</dd></div>
+          <div><dt>Opening night</dt><dd>12 December 2026, 18:30</dd></div>
+          <div><dt>Venue</dt><dd>Kavovyi Dim gallery wall, vul. Virmenska</dd></div>
+          <div><dt>Print cost</dt><dd>Covered by the club</dd></div>
+        </dl>
+        <a class="button button-secondary" href="#join">Ask about submitting</a>
+      </div>
+      <div class="frame exhibition-photo" style="--ratio: 4/5" data-reveal style="--i:1">
+        <svg viewBox="0 0 320 400" width="100%" height="100%" preserveAspectRatio="xMidYMid slice" role="img" aria-label="Framed prints hung along a gallery wall"><rect width="320" height="400" fill="#ece5da"/><rect x="30" y="60" width="90" height="110" fill="#1a1715"/><rect x="140" y="80" width="90" height="110" fill="#2b2622"/><rect x="30" y="200" width="90" height="110" fill="#403a33"/><rect x="140" y="220" width="90" height="110" fill="#1a1715"/></svg>
+      </div>
+    </div>
+  </section>
+
+  <div class="sprocket-divider" aria-hidden="true">
+    <svg viewBox="0 0 400 24" preserveAspectRatio="none" width="100%" height="24"><g fill="currentColor">
+      <rect x="4" y="4" width="16" height="16" rx="3"/><rect x="40" y="4" width="16" height="16" rx="3"/><rect x="76" y="4" width="16" height="16" rx="3"/><rect x="112" y="4" width="16" height="16" rx="3"/><rect x="148" y="4" width="16" height="16" rx="3"/><rect x="184" y="4" width="16" height="16" rx="3"/><rect x="220" y="4" width="16" height="16" rx="3"/><rect x="256" y="4" width="16" height="16" rx="3"/><rect x="292" y="4" width="16" height="16" rx="3"/><rect x="328" y="4" width="16" height="16" rx="3"/><rect x="364" y="4" width="16" height="16" rx="3"/>
+    </g></svg>
+  </div>
+
+  <section class="section section-sunken" id="faq">
+    <div class="container section-head">
+      <p class="eyebrow">05 / Questions</p>
+      <h2>Before your first Thursday</h2>
+    </div>
+    <div class="container faq-layout">
+      <div class="faq-aside" data-reveal>
+        <p>Still unsure? Message us before showing up and someone will walk you through what to bring.</p>
+        <a class="button button-secondary" href="#join">Contact the club</a>
+      </div>
+      <div class="faq" data-reveal style="--i:1">
+        <details class="faq-item" name="faq" open>
+          <summary>Do I need a proper camera?<svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary>
+          <div class="faq-answer"><p>No. About a third of us shoot primarily on phones. Bring whatever you have — the walks are about seeing, not gear.</p></div>
+        </details>
+        <details class="faq-item" name="faq">
+          <summary>Is there a membership fee?<svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary>
+          <div class="faq-answer"><p>No fee to join or attend walks. We split print costs for the annual exhibition among whoever is submitting that year.</p></div>
+        </details>
+        <details class="faq-item" name="faq">
+          <summary>What skill level is this for?<svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary>
+          <div class="faq-answer"><p>All levels. We have members who picked up a camera this year and members who have shot for two decades. Critique nights are kind, not competitive.</p></div>
+        </details>
+        <details class="faq-item" name="faq">
+          <summary>Where do Thursday walks meet?<svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary>
+          <div class="faq-answer"><p>The meeting point changes weekly with the neighbourhood. It's posted in the group chat every Monday and on this page by Wednesday.</p></div>
+        </details>
+        <details class="faq-item" name="faq">
+          <summary>Can I bring a friend who isn't into photography?<svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary>
+          <div class="faq-answer"><p>Of course. Plenty of people join a walk first and pick up a camera later.</p></div>
+        </details>
+        <details class="faq-item" name="faq">
+          <summary>Do you shoot in winter?<svg class="faq-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M12 5v14M5 12h14" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></summary>
+          <div class="faq-answer"><p>Year-round, rain or snow. We dress for it and shorten the route when it's below −10&nbsp;°C.</p></div>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="join">
+    <div class="container section-head">
+      <p class="eyebrow">06 / Join us</p>
+      <h2>Come to the next Thursday walk</h2>
+      <p class="section-lead">Leave your name and we'll add you to the group chat with this week's meeting point.</p>
+    </div>
+    <div class="container join-grid">
+      <form class="form" data-form novalidate>
+        <div class="field">
+          <label for="f-name">Name <span aria-hidden="true">*</span></label>
+          <input id="f-name" name="name" type="text" autocomplete="name" required>
+          <p class="field-error" id="f-name-error" hidden></p>
+        </div>
+        <div class="field">
+          <label for="f-email">Email <span aria-hidden="true">*</span></label>
+          <input id="f-email" name="email" type="email" autocomplete="email" spellcheck="false" placeholder="name@example.com" required>
+          <p class="field-error" id="f-email-error" hidden></p>
+        </div>
+        <div class="field">
+          <label for="f-gear">What do you shoot with (optional)</label>
+          <input id="f-gear" name="gear" type="text" autocomplete="off" placeholder="Phone, film, DSLR — anything">
+        </div>
+        <button class="button button-primary" type="submit">Send request to join</button>
+        <p class="form-status" role="status"></p>
+      </form>
+      <aside class="join-aside" data-reveal>
+        <h3>Or just show up</h3>
+        <p>You don't have to sign up in advance. Thursday walks are open — check the meeting point below and arrive at 19:00.</p>
+        <dl class="visit-details">
+          <div><dt>Next walk</dt><dd>Thu, 22 Oct 2026, 19:00</dd></div>
+          <div><dt>Meeting point</dt><dd>Corner of Virmenska &amp; Fedorova</dd></div>
+          <div><dt>Group chat</dt><dd>hello@example.com for an invite</dd></div>
+        </dl>
+      </aside>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <a class="brand" href="index.html">
+        <svg width="26" height="26" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><rect x="2" y="6" width="20" height="14" rx="2" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="13" r="4" stroke="currentColor" stroke-width="2"/><path d="M8 6l1.5-2.5h5L16 6" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg>
+        <span>Lviv Aperture Club</span>
+      </a>
+      <p>An amateur photography club meeting weekly in Lviv since 2019.</p>
+    </div>
+    <nav class="footer-nav" aria-label="Footer">
+      <div>
+        <h3>Club</h3>
+        <ul><li><a href="#about">About</a></li><li><a href="#walks">Walks</a></li><li><a href="#exhibition">Exhibition</a></li></ul>
+      </div>
+      <div>
+        <h3>Contact</h3>
+        <ul><li><a href="mailto:hello@example.com">hello@example.com</a></li><li><a href="tel:+380501234567">+380 50 123 4567</a></li></ul>
+      </div>
+    </nav>
+  </div>
+  <div class="container footer-bottom">
+    <p>© 2026 Lviv Aperture Club. Not a registered business — just people with cameras.</p>
+  </div>
+  <p class="footer-wordmark" aria-hidden="true">APERTURE</p>
+</footer>
+
+<dialog class="lightbox" aria-label="Photo viewer">
+  <figure><img alt=""><figcaption class="lightbox-caption"></figcaption></figure>
+  <button class="icon-button lightbox-button lightbox-close" type="button" data-close aria-label="Close photo"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+  <button class="icon-button lightbox-button lightbox-prev" type="button" data-prev aria-label="Previous photo"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M15 6l-6 6 6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+  <button class="icon-button lightbox-button lightbox-next" type="button" data-next aria-label="Next photo"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" aria-hidden="true" focusable="false"><path d="M9 6l6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+</dialog>
+
+<script src="script.js" defer></script>
+</body>
+</html>
