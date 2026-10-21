@@ -84,7 +84,7 @@ document.querySelectorAll("[data-form]").forEach((form) => {
     });
     if (firstInvalid) { firstInvalid.focus(); return; }
     const name = form.elements.namedItem("name")?.value.split(" ")[0];
-    if (status) status.textContent = name ? `Thanks, ${name}. We'll add you to the group chat before Thursday.` : "Thanks. We'll be in touch before Thursday.";
+    if (status) status.textContent = name ? `Bedankt, ${name}. We voegen je toe aan de groepschat voor de volgende meetup.` : "Bedankt. We nemen contact op voor de volgende meetup.";
     form.reset();
   });
 });
